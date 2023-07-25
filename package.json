@@ -1,0 +1,19 @@
+{
+  "name": "express-hillel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iKot",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.0"
+  }
+}
